@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon kosmetyczny</title>
+    <link rel="stylesheet" href="styl7.css">
+    <script src="skrypt.js" defer></script>
+</head>
+
+<body>
+    <section class="lewy">
+        <article class="lewy">
+            <h2>Nasza oferta</h2>
+            <ol>
+                <li><a href="twarz.html">Oczyszczanie twarzy</a></li>
+                <li>Masaż</li>
+                <li>Makijaż</li>
+            </ol>
+            <a href="index.html">Strona główna</a>
+        </article>
+
+        <article class="lewy">
+            <img src="obraz1.jpg" alt="Personel">
+        </article>
+    </section>
+    <section class="prawy">
+
+        <article class="prawy">
+            <h1>
+                Usługi kosmetyczne
+            </h1>
+        </article>
+        <article class="prawy">
+            <h3>Kalkulator ceny wizyty</h3>
+            <input type="checkbox" name="Peeling" id="peeling"> Peeling<br>
+            <input type="checkbox" name="Maska" id="maska"> Maska<br>
+            <input type="checkbox" name="Masaż twarzy" id="masaz"> Masaż twarzy<br>
+            <input type="checkbox" name="Makijaż" id="makijaz"> Makijaż<br>
+
+            <button onclick="oblicz()">Oblicz cenę</button>
+            <p id="wynik"></p>
+        </article>
+    </section>
+    <footer>
+        <p>Autor: Maciej Czarnecki (czas wykonywania: )</p>
+    </footer>
+</body>
+
+</html>
