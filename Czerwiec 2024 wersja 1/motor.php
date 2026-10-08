@@ -19,6 +19,7 @@ if ($zapytanie2 && $zapytanie2->num_rows > 0) {
     $wycieczki = $row['liczba'];
 }
 
+$conn->close();
 ?>
 
 <!DOCTYPE html>
