@@ -1,0 +1,10 @@
+INSERT INTO logowanie(nick, haslo) VALUES
+("Jeremi","Jer123")
+
+SELECT FLOOR(AVG(rokUr)) as "Średni rok urodzenia" FROM uczestnicy;
+
+SELECT u.imie, u.nazwisko, l.nick, l.haslo FROM uczestnicy u JOIN logowanie l ON u.logowanie_id=l.id WHERE imie LIKE "J%"
+
+CREATE USER "uczestnik"@"localhost" IDENTIFIED BY "Ucz123&"
+
+GRANT SELECT, UPDATE ON chat.uczestnicy TO "uczestnik"@"localhost"

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="skrypt.js" defer></script>
+</head>
+
+<body>
+    <section id="all">
+
+        <header>
+            <h2>Chat</h2>
+        </header>
+        <main>
+            <section class="chat">
+                <article id="jolanta">
+                    <img src="Jolka.jpg" alt="">
+                    <p>Cześć idziesz jutro do kina?</p>
+                </article>
+                <article id="krzysiek">
+                    <img src="Krzysiek.jpg" alt="">
+                    <p>Tak! A ty?</p>
+                </article>
+            </section>
+            <section id="dol">
+                Wpisz wiadomość:
+                <input type="text" id="wiadomoscW">
+                <button onclick="skryptP()">Wyślij</button>
+                <button onclick="skryptD()">Generuj losową odpowiedź</button>
+            </section>
+        </main>
+    </section>
+    <section id="bok">
+        <h3>Chaty</h3>
+        <ul>
+            <li>Ogólny</li>
+            <li>
+                Tematyczne
+                <ol>
+                    <li>Turystyczny</li>
+                    <li>Żeglarski</li>
+                    <li>Filatelistyczny</li>
+                    <li>Hodowla zwierzątek domowych</li>
+                </ol>
+            </li>
+        </ul>
+        <h3>Uczestnicy</h3>
+        <p>Jolanta Nowak</p>
+        <img src="Jolka.jpg" alt="Jolanta Nowak">
+        <p>Krzysztof Łukasiński</p>
+        <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+    </section>
+    <footer>
+        <h5>Chat wykonał: Maciej Czarnecki (czas wykonywania 1.5h)</h5>
+    </footer>
+</body>
+
+</html>
