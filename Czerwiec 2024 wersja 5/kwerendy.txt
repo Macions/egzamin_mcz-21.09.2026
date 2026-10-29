@@ -1,0 +1,4 @@
+SELECT nazwa FROM marki;
+SELECT model, rocznik, przebieg, paliwo, cena, zdjecie FROM samochody WHERE id=10
+SELECT m.nazwa, model, rocznik,cena, zdjecie FROM samochody JOIN marki m ON marki_id=m.id WHERE wyrozniony=1 LIMIT 4
+SELECT model, cena, zdjecie FROM samochody JOIN marki m on marki_id=m.id WHERE  m.nazwa = "Audi"
