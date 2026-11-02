@@ -100,7 +100,7 @@ $conn->close();
     </section>
     <footer>
         <p>Stronę wykonał: Maciej Czarnecki (czas wykonywania: )</p>
-        <p><a href="http://firmy.pl/komus">Znajdź nas także</a></p>
+        <p><a href="http://firmy.pl/komis">Znajdź nas także</a></p>
     </footer>
 </body>
 
